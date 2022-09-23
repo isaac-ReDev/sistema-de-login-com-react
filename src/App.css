@@ -1,0 +1,43 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.Header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  height: 20vh;
+  background: rgb(108, 38, 108);
+  color: black;
+}
+
+a{
+  color: black;
+
+}
+
+.navbar{ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:50%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.itemNavbar{
+  text-align: center;
+  /* width:80px; */
+  background-color: transparent;
+  border-bottom: none;
+  transition: 0.2s;
+  font-size: 1.2rem;
+}
+
+.itemNavbar:hover{
+  border-bottom: 2px solid red;
+}
